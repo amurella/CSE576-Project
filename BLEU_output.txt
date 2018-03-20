@@ -1,0 +1,39 @@
+train
+src=[es muy tarde el lunes], target=[is monday too late], predicted=[its too too late]
+src=[sentate ahi], target=[sit there], predicted=[sit there]
+src=[provoque un accidente], target=[i caused an accident], predicted=[i caused an accident]
+src=[ella lo ahorco], target=[she choked him], predicted=[she choked him]
+src=[no fumes en la cama], target=[dont smoke in bed], predicted=[dont smoke in bed]
+src=[mostrame otros], target=[show me some others], predicted=[show me some others]
+src=[que habeis hecho], target=[what have you done], predicted=[what did you]
+src=[no hay evidencia], target=[theres no evidence], predicted=[theres no evidence]
+src=[he construido una casa nueva], target=[i built a new house], predicted=[i built a new new]
+src=[nada puede detenerte], target=[nothing can stop you], predicted=[nothing can stop you]
+/home/garrett/.local/lib/python3.5/site-packages/nltk/translate/bleu_score.py:490: UserWarning: 
+Corpus/Sentence contains 0 counts of 3-gram overlaps.
+BLEU scores might be undesirable; use SmoothingFunction().
+  warnings.warn(_msg)
+BLEU-1: 0.076133
+BLEU-2: 0.001015
+BLEU-3: 0.015989
+BLEU-4: 0.031855
+test
+src=[no se bien], target=[i dont quite know], predicted=[it doesnt well well]
+src=[yo tengo ordenes], target=[i have orders], predicted=[i have an]
+src=[no me estoy muriendo], target=[im not dying], predicted=[im not dying]
+src=[pagaremos por eso], target=[well pay for it], predicted=[please for for that]
+src=[ella lo observo comer], target=[she watched him eat], predicted=[she went to the]
+src=[no es mi estilo], target=[its not my style], predicted=[its not my style]
+src=[que juego tan emocionante], target=[what an exciting game], predicted=[what was a heavy]
+src=[ponelo en mi escritorio], target=[put it on my desk], predicted=[i out my my]
+src=[lo siento de verdad], target=[i am really sorry], predicted=[im feel sorry]
+src=[pedi prestado el auto de tom], target=[i borrowed toms car], predicted=[i asked tom his my mom]
+/home/garrett/.local/lib/python3.5/site-packages/nltk/translate/bleu_score.py:490: UserWarning: 
+Corpus/Sentence contains 0 counts of 2-gram overlaps.
+BLEU scores might be undesirable; use SmoothingFunction().
+  warnings.warn(_msg)
+BLEU-1: 0.074054
+BLEU-2: 0.272128
+BLEU-3: 0.457999
+BLEU-4: 0.521659
+
