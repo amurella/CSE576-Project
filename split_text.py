@@ -18,9 +18,9 @@ raw_dataset = load_clean_sentences('dataset/english-spanish.pkl')
 
 # get dataset size
 n_sentences = len(raw_dataset[:,1])
-n_sentences = 30000
+n_sentences = 10000
 n_train = floor(n_sentences*0.9)
-n_train = 27000
+n_train = 9000
 n_test = n_sentences-n_train
 dataset = raw_dataset[:n_sentences, :]
 
